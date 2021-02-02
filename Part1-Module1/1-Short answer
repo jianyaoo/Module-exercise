@@ -10,3 +10,19 @@ EventLoop是javaScript实现异步编程的一种执行机制。
 JS是单线程语言，代码从上向下执行，所以在同步代码执行中，异步代码只有等待同步代码执行结束才会添加回事件队列中。
 同步代码：依次存放到执行栈中，按序依次执行
 异步代码：存放在任务队列中，任务队列又分为宏任务和微任务，当在stack中执行结束后存放到Queue中，当同步任务执行完毕后查看消息队列中是否有任务存在，有则取出执行。
+
+宏任务：
+script(整体代码)
+setTimeout
+setInterval
+I/O
+UI交互事件
+postMessage
+MessageChannel
+setImmediate(Node.js 环境)
+
+微任务：
+Promise.then
+Object.observe
+MutaionObserver
+process.nextTick(Node.js 环境)

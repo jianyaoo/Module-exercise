@@ -6,4 +6,7 @@
 
 // Proxy vs object.defineProperty
 // 1 - 更多的对象操作
+
 // 2 - 数组对象的监视
+
+// 3 - 以非入侵的方式监听

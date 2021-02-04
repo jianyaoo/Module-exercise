@@ -1,5 +1,5 @@
 // 使用var声明变量
-if (true){
+if (true) {
   var foo = "abcd";
 }
 console.log(foo);
@@ -7,7 +7,7 @@ console.log(foo);
 //------------------------------------------------
 
 // let
-if (true){
+if (true) {
   let bar = "abcd";
   console.log(bar);
 }
@@ -18,10 +18,30 @@ if (true){
 // 2 - 作用域不会提升
 
 // 解决问题 1 - 循环嵌套，变量覆盖问题
+// 输出结果：3,3,3
+for (var i = 0; i < 3; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, 100)
+}
+
+// 输出结果：1,2,3
+for (let i = 0; i < 3; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, 100)
+}
+
 
 // 解决问题2 - 计数器问题
-  // 使用闭包解决
-  // 使用let解决
+// 使用闭包解决
+function countNumber(){
+  let count = 0;
+
+
+}
+
+// 使用let解决
 
 // const 关键字
 // 1 - 只读特性

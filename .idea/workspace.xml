@@ -31,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -41,7 +42,10 @@
       <recent name="C:\Users\Administrator\Desktop\示例代码\Module-exercise\Part1-Module2" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="02266966-25d2-4336-8c12-c323b019f33b" name="Default Changelist" comment="" />
@@ -51,6 +55,7 @@
       <updated>1612179129646</updated>
       <workItem from="1612179130783" duration="21869000" />
       <workItem from="1613621608726" duration="6796000" />
+      <workItem from="1613660948419" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="提交代码">
       <created>1612180607317</created>
@@ -84,7 +89,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交代码" />
@@ -115,7 +120,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Part1-Module2/07 - 展开运算符.js</url>
           <line>80</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

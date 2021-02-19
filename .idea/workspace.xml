@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02266966-25d2-4336-8c12-c323b019f33b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1-Module2/07 - 展开运算符.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-Module2/07 - 展开运算符.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1-Module2/08 - 箭头函数.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-Module2/08 - 箭头函数.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612179129646</updated>
       <workItem from="1612179130783" duration="21869000" />
-      <workItem from="1613621608726" duration="6796000" />
+      <workItem from="1613621608726" duration="7556000" />
+      <workItem from="1613696708719" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="提交代码">
       <created>1612180607317</created>
@@ -80,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612445961592</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="part1-module2 大纲">
+      <created>1613641279829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613641279829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,18 +102,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612179253145" />
-    <state x="502" y="86" key="CommitChangelistDialog2" timestamp="1612445953413">
+    <state x="502" y="86" key="CommitChangelistDialog2" timestamp="1613641275117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="502" y="86" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612445953413" />
+    <state x="502" y="86" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613641275117" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612511839394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612511839394" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612445971083">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613641284421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612445971083" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613641284421" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -115,7 +121,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Part1-Module2/07 - 展开运算符.js</url>
           <line>80</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

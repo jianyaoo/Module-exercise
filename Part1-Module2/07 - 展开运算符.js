@@ -80,3 +80,66 @@ console.log(n);
 // 数组是特殊的对象，也可以进行操作
 let foo = {...[1,2,3]}
 console.log(foo);
+
+// 解构赋值
+// 01 - 解构的必须是对象，如果等号右边是 undefined 或者 null 时，运行报错
+// let {...v1} = null;
+// let {...v2} = undefined;
+// console.log(v1);
+// console.log(v2);
+
+// 02 - 解构赋值必须是最后一个参数，否则会报错
+
+// 03 - 在对象中的解构赋值同样是浅拷贝
+let n1 = {
+  a:{
+    b:1
+  }
+}
+let {...n2} = n1;
+n1.a.b = 3;
+console.log(n2);
+
+// 04 - 解构赋值不能复制继承自原型对象的属性
+let m1 = {a:1};
+let m2 = {b:2};
+m2.__proto__= m1;
+let {...m3} = m2;
+console.log(m3);
+console.log(m3.a);
+
+let m4 = Object.create({x:1,y:2});
+m4.z = 3;
+let {...m5} = m4;
+console.log(m4);
+console.log(m4.__proto__)
+console.log(m5);
+
+// 扩展运算符：用于取出对象中所有可遍历的属性，拷贝到当前对象中
+// 说明1 - 如果后面跟的不是对象，会把该值转换为对象
+// 说明2 - 拷贝对象 - 拷贝实例属性
+let aClone = {...m2};
+let aClone2 = Object.assign({},m2);
+console.log(aClone);
+console.log(aClone.__proto__);
+console.log(aClone2);
+
+// 拷贝全部对象
+let aClone3 = Object.assign(
+    Object.create(Object.getPrototypeOf(m4)),
+    m4
+);
+let aClone4 = Object.create(
+    Object.getPrototypeOf(m4),
+    Object.getOwnPropertyDescriptors(m4)
+);
+let aClone5 = {
+  __proto__:Object.getPrototypeOf(m4),
+  ...m4
+};
+console.log(aClone3);
+console.log(aClone3.__proto__);
+console.log(aClone4);
+console.log(aClone4.__proto__);
+console.log(aClone5);
+console.log(aClone5.__proto__);

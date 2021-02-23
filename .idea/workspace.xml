@@ -4,6 +4,7 @@
     <list default="true" id="02266966-25d2-4336-8c12-c323b019f33b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part1-Module2/10 - Proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-Module2/10 - Proxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1-Module2/11 - Reflect.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-Module2/11 - Reflect.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,8 @@
       <workItem from="1612179130783" duration="21869000" />
       <workItem from="1613621608726" duration="7556000" />
       <workItem from="1613696708719" duration="8774000" />
-      <workItem from="1613968106237" duration="2456000" />
+      <workItem from="1613968106237" duration="6003000" />
+      <workItem from="1614064615738" duration="1282000" />
     </task>
     <task id="LOCAL-00001" summary="提交代码">
       <created>1612180607317</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613727482299</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="part1-module2 大纲 - 对象字面量">
+      <created>1613996609159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613996609159</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,10 +131,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612179253145" />
-    <state x="502" y="86" key="CommitChangelistDialog2" timestamp="1613727471310">
+    <state x="502" y="86" key="CommitChangelistDialog2" timestamp="1613996603106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="502" y="86" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613727471310" />
+    <state x="502" y="86" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613996603106" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612511839394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,10 +147,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="280" key="MultipleFileMergeDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613701344938" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613727488581">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613996838794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613727488581" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613996838794" />
     <state x="390" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1613701319857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,8 +166,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Part1-Module2/10 - Proxy.js</url>
-          <line>13</line>
-          <properties lambdaOrdinal="-1" />
+          <line>14</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

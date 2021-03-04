@@ -1,0 +1,9 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-remove-types": "^2.145.0"
+  }
+}

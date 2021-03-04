@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02266966-25d2-4336-8c12-c323b019f33b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TypeScript/01-强类型与弱类型.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/02-flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1-Module2/10 - Proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-Module2/10 - Proxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1-Module2/11 - Reflect.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-Module2/11 - Reflect.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1nsW9mazTma39gdWQezrewIZ3lj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,6 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -56,7 +64,9 @@
       <workItem from="1613621608726" duration="7556000" />
       <workItem from="1613696708719" duration="8774000" />
       <workItem from="1613968106237" duration="6003000" />
-      <workItem from="1614064615738" duration="1282000" />
+      <workItem from="1614064615738" duration="3342000" />
+      <workItem from="1614857447178" duration="2808000" />
+      <workItem from="1614860507224" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="提交代码">
       <created>1612180607317</created>
@@ -114,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613996609159</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="part1-module2 大纲 - Reflect">
+      <created>1614083772010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614083772010</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,17 +141,18 @@
     <MESSAGE value="提交代码" />
     <MESSAGE value="part1-module2 大纲" />
     <MESSAGE value="part1-module2 大纲 - 对象字面量" />
-    <option name="LAST_COMMIT_MESSAGE" value="part1-module2 大纲 - 对象字面量" />
+    <MESSAGE value="part1-module2 大纲 - Reflect" />
+    <option name="LAST_COMMIT_MESSAGE" value="part1-module2 大纲 - Reflect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612179253145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612179253145" />
-    <state x="502" y="86" key="CommitChangelistDialog2" timestamp="1613996603106">
+    <state x="502" y="86" key="CommitChangelistDialog2" timestamp="1614083770265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="502" y="86" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613996603106" />
+    <state x="502" y="86" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614083770265" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612511839394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,10 +165,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="280" key="MultipleFileMergeDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613701344938" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613996838794">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1614861169610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613996838794" />
+    <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614861169610" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614083783277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614083783277" />
     <state x="390" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1613701319857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
